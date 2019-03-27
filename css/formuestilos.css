@@ -1,0 +1,8 @@
+  
+table, td, th {
+ border: 2px solid rgb(62, 65, 241);
+ 
+}
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }

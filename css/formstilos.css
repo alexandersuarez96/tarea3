@@ -1,0 +1,18 @@
+
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+
+input:valid {
+  border: 1px solid green;
+}
+
+#inicio{
+  color: green;
+}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}

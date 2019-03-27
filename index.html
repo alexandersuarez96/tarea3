@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/formstilos.css">
+    
+    <title>Formulario</title>
+    
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Tarea formulario</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">Formulario tarea</a>
+                </li>
+            </ul>    
+        </div>
+    </nav>
+    <div class="container">
+        <form class="form-horizontal">
+            <fieldset>
+                <!-- Form Name -->
+                <legend>Datos personales</legend>
+                <!-- Text input-->
+                <p id="inicio"></p>
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Nombre</label>  
+                    <div class="col-md-4">
+                        <input id="name" name="textinput" type="text"   required pattern="alex"placeholder="nombre" class="form-control input-md">
+                        <span class="help-block"></span>  
+                    </div>
+                </div>
+                <!-- Password input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="passwordinput">Clave </label>
+                    <div class="col-md-4">
+                        <input id="password" name="passwordinput" id="resultado" type="password" required pattern="1234567" placeholder="Digite su contraseña" class="form-control input-md">
+                        <span class="help-block"></span>
+                    </div>
+                </div>
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="singlebutton"></label>
+                    <div class="col-md-4">
+                        <button  type="button" id="enviar" name="singlebutton" class="btn btn-primary">enviar</button>
+                    </div>
+                    
+                </div>
+            </fieldset>
+        </form>
+        <p id="resultado"></p>
+    </div>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/for.js"></script>
+   <script>
+  
+   </script>
+    
+</body>
+</html>
+
+    
